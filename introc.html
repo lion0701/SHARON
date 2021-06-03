@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--分頁顯示的名稱  A-4 -->
+<title>影片篇</title>
+		
+<!--  引入自己寫的CSS  A-2-->
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-2 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!--給導覽列一個名字，叫做"bar"-->
+
+<!-- D-1 複製index.html 裡的導覽列, 一整個section 都要複製 -->
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">高一時期</a>
+					<a class="nav-item nav-link" href="introa.html">高二時期</a>
+					<a class="nav-item nav-link" href="introb.html">高三、畢業時期</a>
+					<a class="nav-item nav-link active" href="introc.html">影片篇</a>
+						<a class="nav-item nav-link" href="introd.html">連結</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+
+
+
+<!--把畫面轉成container型態，分成3等分(col-4)
+#到style.css裡設定 padding-top，維持跟bar之間的距離	-->
+	
+<section id="introsecond">
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				 <video src="img/1.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">屬於我們的果汁酒</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <video src="img/2.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">三眼怪的動動</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <video src="img/4.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">綁頭髮時間</p>
+				  </div>
+				</div>
+			</div>
+			
+		    <div class="col-4">
+				<div class="card" style="width: 18rem;">
+				 <video src="img/5.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">準備溜冰ㄌ</p>
+				  </div>
+				</div>
+			</div>
+		
+		
+		
+		<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				 <video src="img/12.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">去文化找你</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				 <video src="img/3.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">來銘傳陪我的你</p>
+				  </div>
+				</div>
+			</div>
+	
+		
+			<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <video src="img/6.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">還敢用我啊</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				<video src="img/10.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">返校結束!!</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <video src="img/8.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">想喝飲料ㄌ</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				<video src="img/9.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">想出去逛街...</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="row">
+			<div class="col-7">
+				<div class="card" style="width: 18rem;">
+				  <video src="img/7.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">2021祝福影片上</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				<video src="img/11.mp4" autoplay controls loop class="card-img-top"> </video>
+				  <div class="card-body">
+    			  <p class="card-text">2021祝福影片下</p>
+				  </div>
+				</div>
+			</div>
+	</div>
+</section>
+	
+</body>
+</html>
