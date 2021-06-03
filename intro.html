@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--分頁顯示的名稱  A-4 -->
+<title>高一時期</title>
+		
+<!--  引入自己寫的CSS  A-2-->
+<link href="style.css" rel="stylesheet" type="text/css">
+	
+<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-2 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!--給導覽列一個名字，叫做"bar"-->
+
+<!-- D-1 複製index.html 裡的導覽列, 一整個section 都要複製 -->
+<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link active" href="intro.html">高一時期</a>
+					<a class="nav-item nav-link" href="introa.html">高二時期</a>
+					<a class="nav-item nav-link" href="introb.html">高三、畢業時期</a>
+					<a class="nav-item nav-link" href="introc.html">影片篇</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+
+
+
+<!--把畫面轉成container型態，分成3等分(col-4)
+#到style.css裡設定 padding-top，維持跟bar之間的距離	-->
+	
+<section id="introsecond">
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/zz.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">剛認識的我們</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/qq.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">綁兩顆的你</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/aa.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">一起搭1路回家</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/p.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">還記得減肥的我們嗎?</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/k.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">花花 wi-fi</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/l.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">我小帳還是花花呢</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="row">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/u.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">一起搞怪的我們</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/n.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">以前放學都在教室欸</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/h.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">看哪裡!!!</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/j.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">防疫超前部屬?</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/I.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">幫我綁一顆!</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/m.jpg" class="card-img-top">
+				  <div class="card-body">
+    			  <p class="card-text">一起去讀書(星巴克)</p>
+				  </div>
+				</div>
+			</div>
+	</div>
+</section>
+	
+</body>
+</html>
